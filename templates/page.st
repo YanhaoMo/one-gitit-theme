@@ -56,10 +56,9 @@
     $expire()$
     $getuser()$
     <a href="#" id="back-to-top" title="Back to top">Top</a>
-    <script src="/js/tab.js"></script>
+    <script src="/js/back2top.js"></script>
     <script src="/js/highlight/highlight.pack.js"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-
     <script src="/js/ace/ace.js" type="text/javascript" charset="utf-8"></script>
     <script src="/js/ace_editor.js" type="text/javascript" charset="utf-8"></script>
   </body>
