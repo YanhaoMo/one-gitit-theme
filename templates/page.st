@@ -27,13 +27,9 @@
                 <li><a href="/">Home</a></li>
                 <li><a href="/_index">Index</a></li>
               </ul>
+
     <script src="/js/getPath.js"></script>
-<script>
-    if(GetUrlRelativePath() == "/_index"){
-        var homeTab= document.getElementById('home');
-        homeTab.style.float = "inherit";
-    }
-</script>
+
             $tabs$ 
             $content()$
             $footer()$
