@@ -15,9 +15,39 @@
     <link href="$base$/css/print.css" rel="stylesheet" media="print" type= "text/css" />
     <link rel="stylesheet" href="/js/highlight/styles/github-gist.css">
     $endif$
-    <!--[if IE]><link href="$base$/css/ie.css" rel="stylesheet" media="screen, projection" type="text/css" /><![endif]-->
   </head>
   <body>
+      <form action="" method="post">
+          <input type="search" name="search" id="search" placeholder="Search" />
+          <input type="submit" name="" id="search-submit" value="搜索" />
+      </form>
+      <header>
+          <a style="display:block;" href="/">Debian 中文Wiki</a>
+      </header>
+      <nav>
+          <a class="logo-header" href="/">
+              <img class="images" src="/img/debian-logo.svg" alt="" />
+          </a>
+          <ul>
+              <li>
+                  <a href="http://www.debiancn.org">首页</a>
+              </li>
+              <li>
+                  <a href="http://forums.debiancn.org">论坛</a>
+              </li>
+              <li>
+                  <a href="/">软件源</a>
+              </li>
+              <li>
+                  <a href="">联系我们</a>
+              </li>
+              <li class="nav-last-link">
+                  <a href="">捐助我们</a>
+              </li>
+          </ul>
+      </nav>
+
+
     <div id="doc3" class="yui-t1">
         <div id="yui-main">
           <div id="maincol" class="yui-b">
@@ -27,12 +57,6 @@
                 <li><a href="/_index">Index</a></li>
               </ul>
     <script src="/js/getPath.js"></script>
-<script>
-    if( ["/_index", "/_login"].includes(GetUrlRelativePath()) ){
-        var homeTab= document.getElementById('home');
-        homeTab.style.float = "inherit";
-    }
-</script>
             $tabs$
             $content()$
             $footer()$
@@ -58,7 +82,6 @@
     <script src="/js/back2top.js"></script>
     <script src="/js/highlight/highlight.pack.js"></script>
     <script>hljs.initHighlightingOnLoad();</script>
-
     <script src="/js/ace/ace.js" type="text/javascript" charset="utf-8"></script>
     <script src="/js/ace_editor.js" type="text/javascript" charset="utf-8"></script>
   </body>

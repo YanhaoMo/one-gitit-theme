@@ -8,5 +8,13 @@ function GetUrlRelativePath(){
     if(relUrl.indexOf("?") != 1){
         relUrl = relUrl.split("?")[0];
     }
+    if(relUrl.indexOf("@") != -1){
+        relUrl = relUrl.split("@")[0];
+    }
     return relUrl;
+}
+
+if(["/_upload", "/_categories", "/_index", "/_login", "/_register", "/_history", "/_activity", "/"].includes(GetUrlRelativePath())) {
+    var homeTab= document.getElementById('home');
+    homeTab.style.float = "inherit";
 }
