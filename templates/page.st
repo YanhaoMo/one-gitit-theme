@@ -64,26 +64,23 @@
         <div id="yui-main">
           <div id="maincol" class="yui-b">
 
-
-            $userbox()$
     <script src="/js/getPath.js"></script>
 
             $content()$
           </div>
         </div>
-            $footer()$
-        <div id="sidebar" class="yui-b first">
-          $logo()$
-          $if(sitenav)$
-            $sitenav()$
-          $endif$
-          $if(pagetools)$
-            $pagetools()$
-          $endif$
-          $if(markuphelp)$
-            $markuphelp()$
-          $endif$
-        </div>
+            <footer>
+                <div class="site-base">
+                    <center>
+                        <a href="http://creativecommons.org/licenses/by-nc-sa/4.0" class="cc-opacity" target="_blank">
+                            <img src="/img/cc-by-nc-sa.svg" alt="Creative Commons">
+                        </a>
+                    </center>
+                    <center style="margin-top:5px;">© 2016 - <a href="/">Debian 中文社区</a></center>
+                    <center>Debian 是 Software in the Public Interest, Inc. 的注册商标。</center>
+                    <center >服务器由<a href="https://www.ucloud.cn/"><img src="/.theme/images/u.png" /></a>赞助</center>
+                </div>
+            </footer>
     </div>
     $javascripts$
     $expire()$
