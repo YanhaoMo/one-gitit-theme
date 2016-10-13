@@ -47,21 +47,31 @@
           </ul>
       </nav>
 
+<div id="nnav">
+    <ul>
+        <li><a href="#">主页</a></li>
+        <li><a href="#">讨论</a></li>
+        <li><a href="#">所有页面</a></li>
+        <li><a href="#">源代码</a></li>
+        <li><a href="#">历史</a></li>
+        <li><a href="#">工具</a></li>
+        <li><a href="#">登录</a><a href="#">注册</a></li>
+    </ul>
+</div>
+
 
     <div id="doc3" class="yui-t1">
         <div id="yui-main">
           <div id="maincol" class="yui-b">
+
+
             $userbox()$
-              <ul id="home" class="tabs">
-                <li><a href="/">Home</a></li>
-                <li><a href="/_index">Index</a></li>
-              </ul>
     <script src="/js/getPath.js"></script>
-            $tabs$
+
             $content()$
-            $footer()$
           </div>
         </div>
+            $footer()$
         <div id="sidebar" class="yui-b first">
           $logo()$
           $if(sitenav)$
