@@ -54,8 +54,8 @@
         <li><a href="/_index">所有页面</a></li>
         <li><a href="#">源代码</a></li>
         <li><a href="#">历史</a></li>
-        <li><a href="#">工具</a></li>
         <li><a href="#">登录</a><a href="#">注册</a></li>
+        <li><a href="#">工具</a></li>
     </ul>
 </div>
 
@@ -76,9 +76,9 @@
                             <img src="/img/cc-by-nc-sa.svg" alt="Creative Commons">
                         </a>
                     </center>
-                    <center style="margin-top:5px;">© 2016 - <a href="/">Debian 中文社区</a></center>
+                    <center>© 2016 - <a href="/">Debian 中文社区</a></center>
                     <center>Debian 是 Software in the Public Interest, Inc. 的注册商标。</center>
-                    <center >服务器由<a href="https://www.ucloud.cn/"><img src="/.theme/images/u.png" /></a>赞助</center>
+                    <center >服务器由<a href="https://www.ucloud.cn/"><img src="/img/u.png" /></a>赞助</center>
                 </div>
             </footer>
     </div>
@@ -87,6 +87,7 @@
     $getuser()$
     <a href="#" id="back-to-top" title="Back to top">Top</a>
     <script src="/js/back2top.js"></script>
+    <script src="/js/header.js"></script>
     <script src="/js/highlight/highlight.pack.js"></script>
     <script>hljs.initHighlightingOnLoad();</script>
     <script src="/js/ace/ace.js" type="text/javascript" charset="utf-8"></script>
