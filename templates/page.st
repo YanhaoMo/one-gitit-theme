@@ -51,7 +51,7 @@
     <ul>
         <li><a href="#">主页</a></li>
         <li><a href="#">讨论</a></li>
-        <li><a href="#">所有页面</a></li>
+        <li><a href="/_index">所有页面</a></li>
         <li><a href="#">源代码</a></li>
         <li><a href="#">历史</a></li>
         <li><a href="#">工具</a></li>

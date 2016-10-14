@@ -1,6 +1,7 @@
 body {
     margin: 0;
     min-width: 1300px;
+    color: #333;
 }
 header {
     height: 60px;
@@ -191,6 +192,7 @@ h1.pageTitle a{
     padding-left: 0px;
     color: #D24C72;
 }
+
 h1 {font-size: 1.5em;font-weight: 600}
 h2 {font-size: 1.5em;font-weight: 500}
 h3 {font-size: 1.2em;font-weight: 500}
@@ -206,7 +208,8 @@ div#TOC {
     width:auto;
     margin-left:5px;
     margin-top:-21px;
-    padding:15px 35px 15px 10px;
+    margin-bottom: 10px;
+    padding:15px 30px 15px 10px;
     background-color:#ffffff;
     font-size:small;
     border-top-color: #D24C72;
@@ -219,6 +222,11 @@ div#TOC a:hover {
     text-decoration: underline;
     color: #000;
 }
+div#TOC ul{
+    list-style: none;
+    padding: 0 0 0 1.5em;
+    margin: 0;
+}
 
 #wikipage {
     padding-top:20px;
@@ -230,6 +238,14 @@ div#TOC a:hover {
     margin-top:0;
     margin-bottom: 15px;
 }
+#wikipage a {
+    text-decoration:none;
+    color: #D24C72;
+}
+#wikipage a:hover {
+    text-decoration: underline;
+}
+
 
 #back-to-top {
     position: fixed;
