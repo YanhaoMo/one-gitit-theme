@@ -243,7 +243,7 @@ div#TOC ul{
     padding-top:20px;
     width: 97%;
     margin-right:1.5%;
-    margin-left:1.5%;
+    margin-left:1%;
     font: 13px/1.231 arial,helvetica,clean,sans-serif;
     font-size: 100%;
     font-style:normal;
@@ -364,4 +364,18 @@ footer {
 }
 .site-base a {
     color: #4b4b4b;
+}
+#footnotediv div {
+    background-color: white;
+    max-width: 800px;
+    padding:0;
+    margin:0;
+    border: 1px solid #CDBBB5;
+    box-shadow: #555 0 0 10px;
+    -webkit-box-shadow: #555 0 0 10px;
+    -moz-box-shadow: 0 0 10px #555;
+}
+blockquote{
+        font-family: cursive;
+            font-size: 1em;
 }

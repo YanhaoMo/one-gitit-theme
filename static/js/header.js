@@ -15,7 +15,7 @@ $(document).ready(function(){
         else{
             $("nav").css({"position":"static"});
             $(".logo-header").css({"margin":"0 60px 0 0", "overflow":"visible"});
-            $("nav a img").css({"margin":"-60px 0 0 120px"});
+            $("nav a img").css({"margin":"-60px 0 0 145px"});
             $("nav ul li a").hover(function(){
                 $(this).css("background", "#fff");
             });
