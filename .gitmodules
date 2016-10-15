@@ -1,0 +1,6 @@
+[submodule "third_party/highlightjs"]
+	path = third_party/highlightjs
+	url = https://github.com/isagalaev/highlight.js.git
+[submodule "third_party/ace"]
+	path = third_party/ace
+	url = https://github.com/ajaxorg/ace.git
