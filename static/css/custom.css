@@ -24,7 +24,7 @@ form {
     border-radius: 5px;
     border: 1px solid #ccc;
     width: 180px;
-    height: 25px;
+    height: 20px;
     color: #ccc;
 }
 #search-submit {
@@ -170,8 +170,33 @@ h1 span:hover {
     padding: 5px 140px 2% 130px;
     min-height:calc(100vh - 95px - 5px - 30px - 60px - 50px - 40px - 2px);
 }
+#content ul a {
+    text-decoration:none;
+    color: #D24C72;
+}
+#content ul a:hover {
+    text-decoration:underline;
+}
 #content > p {
     display:none;
+}
+#content ol {
+    font-size: 100%;
+    font-style:normal;
+    margin-left:-10px;
+    color: #000;
+}
+#content ol li {
+    padding-bottom:5px;
+    color: #000;
+    font-size:1.1em;
+}
+#content ol a {
+    text-decoration:none;
+    color: #a80030;
+}
+#content ol a:hover {
+    text-decoration:underline;
 }
 
 h1.pageTitle{
@@ -418,4 +443,27 @@ ul.history a:hover {
     padding-left:25px;
     color: red;
     font-size:108%;
+}
+span.added {
+    background-color: #fff;
+    color: #17de17;
+}
+span.deleted {
+    color: red;
+}
+.revision {
+    font-size: 1em;
+}
+pre.matches span.highlighted {
+    color: #C70038;
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+#pattern {
+    color: #C70038;
+    background-color: #fff;
+}
+.matches {
+    color:#333;
+    font-size: 108%;
 }

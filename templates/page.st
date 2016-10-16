@@ -17,9 +17,12 @@
     $endif$
   </head>
   <body>
-      <form action="" method="post">
-          <input type="search" name="search" id="search" placeholder="Search" />
-          <input type="submit" name="" id="search-submit" value="搜索" />
+      <form action="$base$/_search" method="get">
+      <!--
+        <input type="search" name="search" id="search" placeholder="Search" />
+      -->
+        <input type="text" name="patterns" id="search"/>
+        <input type="submit" name="search" id="search-submit" value="搜索" />
       </form>
       <header>
           <a style="display:block;" href="/">Debian 中文Wiki</a>
