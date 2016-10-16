@@ -1,7 +1,7 @@
 $(document).ready(function(){
     $(window).scroll(function(){
         if ($(window).scrollTop() > 60){
-            $("nav").css({"position":"fixed", "top":"0", "z-index":"2"});
+            $("nav").css({"position":"fixed", "top":"0", "z-index":"100"});
             $(".logo-header").css({"margin":"0 60px 0 0", "overflow":"hidden"});
             $("nav a img").css({"margin":"-25px 0 0 80px"});
             $("nav ul li a").hover(function(){

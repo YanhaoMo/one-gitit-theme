@@ -101,23 +101,6 @@ h1 span:hover {
     text-shadow: 1px 1px #000;
 
 }
-.content-left {
-    float: right;
-    margin: 0 140px 0 0;
-    width: 300px;
-}
-.content-left ul {
-    margin-top: 10px;
-    margin-left: 20px;
-    padding-left: 0;
-    list-style-type: none;
-    font-size: 1em;
-}
-.content-left ul li a {
-    text-decoration: none;
-    color: #555;
-}
-
 #nnav {
     width: 100%;
     height: 40px;
@@ -185,6 +168,10 @@ h1 span:hover {
 }
 #content{
     padding: 5px 140px 2% 130px;
+    min-height:calc(100vh - 95px - 5px - 30px - 60px - 50px - 40px - 2px);
+}
+#content > p {
+    display:none;
 }
 
 h1.pageTitle{
@@ -193,7 +180,7 @@ h1.pageTitle{
     border-bottom: 1px solid #D24C72;
 }
 h1.pageTitle a{
-    margin-left: 10px;
+    margin-left: 13px;
     text-decoration:none;
     color: #a80030;
 }
@@ -244,19 +231,25 @@ div#TOC ul{
     width: 97%;
     margin-right:1.5%;
     margin-left:1%;
+    font-size: 100%;
+    font-style:normal;
+}
+#wikipage, #previewpane {
     font: 13px/1.231 arial,helvetica,clean,sans-serif;
     font-size: 100%;
     font-style:normal;
 }
-#wikipage p{
+#wikipage p,#previewpane p{
     margin-top:10px;
     margin-bottom: 15px;
 }
-#wikipage a {
+#wikipage a,#previewpane a {
     text-decoration:none;
     color: #D24C72;
 }
-#wikipage a:hover {
+#wikipage a:hover,#previewpane  a:hover {
+    font-size: 100%;
+    font-style:normal;
     text-decoration: underline;
 }
 
@@ -319,7 +312,7 @@ ul.index a:hover{
 }
 
 pre>code { display: block; padding: 0.7em 1em;  }
-code { font-size: 93%; background-color: #f8f8f8; border: 1px solid #ddd; overflow: auto; border-radius: 0.2em;  }
+code { font-size: 100%; background-color: #f8f8f8; border: 1px solid #ddd; overflow: auto; border-radius: 0.2em;  }
 pre.matches { margin: 0; padding: 0;  }
 #pattern { background-color: yellow; font-weight: bold;  }
 pre.matches span.highlighted { background-color: yellow;  }
@@ -378,4 +371,51 @@ footer {
 blockquote{
         font-family: cursive;
             font-size: 1em;
+}
+#loginForm {
+    float: unset;
+}
+#editform{
+    float: unset;
+    margin:0;
+    margin-top: 30px;
+}
+#editedText {
+    visibility: hidden;
+    display: none;
+    z-index: -1;
+}
+#editor{
+    margin: 0 auto;
+    height: 500px;
+    width: 98%;
+    border: 1px solid #ddd;
+}
+#editform #logMsg { width: 98%; margin-left: 10px; margin-bottom: 0.3em;  }
+#editform label {margin-left: 10px;}
+#update {margin-left: 10px;}
+ul.history{
+    padding-left:25px;
+    color:#333;
+}
+ul.history a {
+    text-decoration:none;
+    color: #d24c72;
+    font-size:1.1em;
+}
+ul.history a:hover {
+    text-decoration:underline;
+}
+#previewpane {
+    border-top: 3px solid #d24c72;
+    margin-top:20px;
+    padding-top: 20px;
+}
+#previewpane #TOC {
+    margin-right:8px;
+}
+.messages {
+    padding-left:25px;
+    color: red;
+    font-size:108%;
 }

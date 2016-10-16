@@ -36,7 +36,7 @@
                   <a href="http://forums.debiancn.org">论坛</a>
               </li>
               <li>
-                  <a href="/">软件源</a>
+                  <a href="http://repo.debiancn.org">软件源</a>
               </li>
               <li>
                   <a href="">联系我们</a>
@@ -49,23 +49,19 @@
 
 <div id="nnav">
     <ul>
-        <li><a href="#">主页</a></li>
-        <li><a href="#">讨论</a></li>
+        <li><a href="/">主页</a></li>
+        <li><a id="_discuss" href="#">讨论</a></li>
         <li><a href="/_index">所有页面</a></li>
-        <li><a href="#">源代码</a></li>
-        <li><a href="#">历史</a></li>
-        <li><a href="#">登录</a><a href="#">注册</a></li>
-        <li><a href="#">工具</a></li>
+        <li><a id="_source" href="#">源代码</a></li>
+        <li><a id="_history" href="#">历史</a></li>
+        <li><a id="_login" href="#">登录</a><a id="_signin" href="#">注册</a></li>
+        <li><a id="_tools" href="#">工具</a></li>
     </ul>
 </div>
-
 
     <div id="doc3" class="yui-t1">
         <div id="yui-main">
           <div id="maincol" class="yui-b">
-
-    <script src="/js/getPath.js"></script>
-
             $content()$
           </div>
         </div>
@@ -92,5 +88,6 @@
     <script>hljs.initHighlightingOnLoad();</script>
     <script src="/js/ace/ace.js" type="text/javascript" charset="utf-8"></script>
     <script src="/js/ace_editor.js" type="text/javascript" charset="utf-8"></script>
+    <script src="/js/custom.js" type="text/javascript" charset="utf-8"></script>
   </body>
 </html>
